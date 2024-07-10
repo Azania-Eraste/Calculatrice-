@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Calculatrice</title>
+</head>
+<body >
+   <div class="container">
+    <div class="Calculatrice">
+        <div class="ecran"><input type="text" id="ecran" inputmode="numeric" disabled></div>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <button onclick="AjoutNombre('7')" id="btn">7</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('8')" id="btn">8</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('9')" id="btn">9</button>
+                </td>
+                <td>
+                    <button onclick="efface()" id="btn">DEL</button>
+                </td>
+                <td>
+                    <button onclick="effaceTout()" id="btn">AC</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="AjoutNombre('4')" id="btn">4</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('5')" id="btn">5</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('6')" id="btn">6</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('*')" id="btn">*</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('/')" id="btn">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="AjoutNombre('1')" id="btn">1</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('2')" id="btn">2</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('3')" id="btn">3</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('+')" id="btn">+</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('-')" id="btn">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="AjoutNombre('0')" id="btn">0</button>
+                </td>
+                <td>
+                    <button onclick="AjoutNombre('.')" id="btn">.</button>
+                </td>
+                <td>
+                    <button  id="btn">^</button>
+                </td>
+                <td>
+                    <button onclick="afficheAns()" id="btn">Ans</button>
+                </td>
+                <td>
+                    <button onclick="calcul()" id="btn">=</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+#ecran{
+    width: 350;
+    height: 30px;
+}
+.ecran{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 5vh;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.Calculatrice{
+    background-color: aliceblue;
+}
+#btn{
+    width: 40px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;   
+    font-weight: 400;
+}
